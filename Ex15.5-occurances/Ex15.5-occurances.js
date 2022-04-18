@@ -19,4 +19,4 @@ function countOccurrences(str, char) {
 }
 countOccurrences("ini mini miny moe", "n");
 
-//I've opened it with dev tool (on the html page- f12 then sources, then find the js file).there was no error sign. I clicked line 12 then refreshed it. then started checking with f10. I found out that counter varaible isn't changing even though if statement is true. that's because it's not being saved in any varaible. I changed it to counter+=1 (instead of counter +1).
+//I've opened it with dev tool (on the html page- f12 then sources, then find the js file).there was no error sign. I clicked line 12 then refreshed it. then started checking with f10. I found out that counter varaible isn't changing even though the if statement is true. that's because it's not being saved in any varaible. I changed it to counter+=1 (instead of counter +1).

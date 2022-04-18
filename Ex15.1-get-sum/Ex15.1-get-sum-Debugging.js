@@ -19,7 +19,7 @@ function getSum(arr1, arr2) {
 getSum([1, 2, 3], [5, 66, 23]);
 
 //explaining my solution:
-//I have opened it with dev tools on chrome (on the html page- f12 then sources, then find the js file). I clicked on the line with error (line 12). then I refreshed it and noticed that inside "scope" is written that arr1, arr2, and sum are undefined.
+//I have opened it with dev tools on chrome (on the html page- f12 then sources, then find the js file). I clicked on the line with the error (line 12). then I refreshed it and noticed that inside "scope" is written that arr1, arr2, and sum are undefined.
 //I changed the arguments of the getSum function (when calling it) to valid arrays seperate with comma.
 //getSum([1, 2, 3],[5, 66, 23]); instead of getSum([1, 2, 3][(5, 66, 23)]);
-//then ran it again and found the bug of sum - sum needs to be declared with let and not with const, so it can be changed- I fixed it and ran the function again. that move with f10 (inside the dev tool) to see the progress of the calculations.
+//then ran it again and found the bug of sum - sum needs to be declared with let and not with const, so it can be changed- I fixed it and ran the function again. then move with f10 (inside the dev tool) to see the progress of the calculations.
